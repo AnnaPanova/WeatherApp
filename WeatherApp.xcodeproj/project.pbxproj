@@ -13,6 +13,7 @@
 		433550152C219DDD00205A99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433550142C219DDD00205A99 /* Preview Assets.xcassets */; };
 		4335501D2C219F5A00205A99 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4335501C2C219F5A00205A99 /* Weather.swift */; };
 		433550202C21A95200205A99 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4335501F2C21A95200205A99 /* WeatherService.swift */; };
+		433550232C220CD100205A99 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433550222C220CD100205A99 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		433550142C219DDD00205A99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4335501C2C219F5A00205A99 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		4335501F2C21A95200205A99 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherService.swift; path = ../../../../../WeatherService.swift; sourceTree = "<group>"; };
+		433550222C220CD100205A99 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherViewModel.swift; path = ../../../../../WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		4335500C2C219DDB00205A99 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				433550212C220CAE00205A99 /* View Models */,
 				4335501E2C21A8FE00205A99 /* Services */,
 				4335501B2C219F3800205A99 /* Models */,
 				4335500D2C219DDB00205A99 /* WeatherAppApp.swift */,
@@ -87,6 +90,14 @@
 				4335501F2C21A95200205A99 /* WeatherService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		433550212C220CAE00205A99 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				433550222C220CD100205A99 /* WeatherViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433550232C220CD100205A99 /* WeatherViewModel.swift in Sources */,
 				433550202C21A95200205A99 /* WeatherService.swift in Sources */,
 				433550102C219DDB00205A99 /* ContentView.swift in Sources */,
 				4335501D2C219F5A00205A99 /* Weather.swift in Sources */,

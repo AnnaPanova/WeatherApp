@@ -11,7 +11,7 @@ import Foundation
 
 // model, that descrbe responce from webservice
 
-struct ResponceWeather: Decodable {
+struct WeatherResponse: Decodable {
     let main: Weather
 }
 
